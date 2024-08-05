@@ -22,3 +22,42 @@
   width: 80%;
   border: 1px solid red;
 }
+
+.btnCol {
+  background: rgb(156, 21, 21);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btnCol:hover {
+  background: rgb(135, 18, 18);
+}
+
+.btnCol:active {
+  background: rgb(226, 17, 17);
+  transform: scale(1.1);
+}
+
+.collapse {
+  display: grid;
+  transition: all ease 1s;
+  grid-template-rows: 1fr;
+  padding: 10px;
+  background: yellow;
+}
+
+.collapse.hide {
+  grid-template-rows: 0fr;
+  padding: 0px;
+}
+
+.collapse>div {
+  overflow: hidden;
+}
