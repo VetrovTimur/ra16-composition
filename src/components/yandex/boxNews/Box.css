@@ -1,34 +1,68 @@
 .containerNews {
     margin: 10px;
-    border: 1px solid black;
+    padding: 15px;
+    border: 2px solid blue;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.boxNews {
+.containerBoxNews {
+    padding: 15px;
+    border: 2px solid green;
+
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
 }
+
+
+
+.boxNews {
+    padding: 10px;
+    border: 2px solid orange;
+
+    display: flex;
+    flex-direction: column;
+}
+
 .boxTitleNews {
+    border: 1px solid black;
+    padding: 10px;
+
     display: flex;
     gap: 15px;
 }
-.boxActiveNews {
-    border: 1px solid black;
 
+.boxActiveNews {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
 }
+
 .activeNews {
     display: flex;
     gap: 15px;
-}
-.itemStock {
-    display: flex;
+
     border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+}
+
+.itemStock {
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 5px;
+
+    display: flex;
     gap: 10px;
 }
+
 .boxStock {
     display: flex;
+}
+
+.boxAdvert {
+    padding: 30px;
+    border: 1px solid black;
 }

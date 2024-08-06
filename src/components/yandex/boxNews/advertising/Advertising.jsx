@@ -3,7 +3,7 @@ import React from 'react'
 export const Advertising = (props) => {
   const {dataAdvent} = props;
   return (
-    <div>
+    <div className='boxAdvert'>
       {
         dataAdvent.map((ad, index) => 
           <div key={index}>

@@ -1,0 +1,63 @@
+.containerSearch {
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid blue;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.listServ {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.boxSearch {
+    border: 2px solid green;
+    padding: 10px;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.searchContent {
+    padding: 15px;
+    border: 2px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    border: 1px solid black;
+    padding: 25px;
+}
+.search {
+    display: flex;
+    border: 2px solid black;
+    padding: 5px;
+    width: 80%;
+    justify-content: space-between;
+}
+.textSearch {
+    width: 90%;
+    border: 1px solid black;
+    text-align: center;
+}
+.btnSearch{
+    width: 10%;
+}
+.banner{
+    width: 70%;
+    padding: 25px;
+    border: 1px solid black;
+    margin-top: 15px;
+    text-align: center;
+}

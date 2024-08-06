@@ -5,7 +5,6 @@ export const Collapse = () => {
 
 
   const handleClick = () => {
-    console.log('test')
     setTest((p) => !p);
   }
 

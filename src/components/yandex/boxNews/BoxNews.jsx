@@ -6,21 +6,21 @@ import './Box.css'
 
 export const BoxNews = () => {
     const data = [
-        {id: 1, name: 'Новость', active: true, content: [
+        {id: 1, name: 'Тема1(active)', active: true, content: [
             {icon: 'иконка', title: 'Новость', url: '#'},
             {icon: 'иконка', title: 'Новость', url: '#'},
             {icon: 'иконка', title: 'Новость', url: '#'},
             {icon: 'иконка', title: 'Новость', url: '#'},
             {icon: 'иконка', title: 'Новость', url: '#'},
         ]},
-        {id: 2, name: 'Новость', active: false, content: [
+        {id: 2, name: 'Тема2', active: false, content: [
             {icon: 'иконка', title: 'Новость', url: '#'},
             {icon: 'иконка', title: 'Новость', url: '#'},
             {icon: 'иконка', title: 'Новость', url: '#'},
             {icon: 'иконка', title: 'Новость', url: '#'},
             {icon: 'иконка', title: 'Новость', url: '#'},
         ]},
-        {id: 3, name: 'Новость', active: false, content: [
+        {id: 3, name: 'Тема3', active: false, content: [
             {icon: 'иконка', title: 'Новость', url: '#'},
             {icon: 'иконка', title: 'Новость', url: '#'},
             {icon: 'иконка', title: 'Новость', url: '#'},
@@ -42,7 +42,7 @@ export const BoxNews = () => {
 
   return (
     <div className='containerNews'>
-        <div className='boxNews'>
+        <div className='containerBoxNews'>
             <News data={data}/>
             <StockMarket dataStock={dataStock}/>
         </div>
